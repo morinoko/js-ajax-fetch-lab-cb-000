@@ -53,7 +53,7 @@ function getIssues() {
 
   fetch(url)
     .then(response => response.json())
-    .then(json => console.log(json));
+    .then(json => displayIssues(json));
 }
 
 function displayIssues(json) {
