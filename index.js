@@ -28,6 +28,10 @@ function showResults(json) {
 
 function createIssue() {
   //use this function to create an issue based on the values input in index.html
+  const title = document.getElementById('title').value;
+  const body = document.getElementById('body').value;
+
+  
 }
 
 function getIssues() {
