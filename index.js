@@ -4,7 +4,7 @@ const username = "morinoko";
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  return '2b04c6f2d67e791a2cd1d91be19c02cbc0ac1e1c';
+  return 'a735fb7611e95fa3489ad3b716b76fc58f67535d';
 }
 
 function forkRepo() {
