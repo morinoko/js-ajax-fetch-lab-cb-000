@@ -51,5 +51,16 @@ function getIssues() {
   const repo = `${username}/js-ajax-fetch-lab`;
   const url = `${rootURL}/repos/${repo}/issues`;
 
-  fetch(url).then(response => response.json()).then(json => console.log(json));
+  fetch(url)
+    .then(response => response.json())
+    .then(json => console.log(json));
+}
+
+function displayIssues(json) {
+  const issuesDiv = document.getElementById('issues');
+  const issues = json.map(issue =>
+    `<li>${issue.title}</li>`
+  ).join('');
+
+  issuesDiv.innerHTML = `<ul>${issues}</ul>`;
 }
