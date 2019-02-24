@@ -1,10 +1,10 @@
 const rootURL = "https://api.github.com";
-const username ="morinoko";
+const username = "morinoko";
 
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  return '135b3c049957c94dced1d7b283705a6cb525aed8';
+  return '2b04c6f2d67e791a2cd1d91be19c02cbc0ac1e1c';
 }
 
 function forkRepo() {
